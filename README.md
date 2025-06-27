@@ -1,27 +1,27 @@
-<h1 style="text-align: center; font-size: 45px;"> AI Blueprint Projects for HP AI Studio 🚀 </h1>
+<h1 style="text-align: center; font-size: 45px;"> AI Blueprint Project for HP AI Studio 🚀 </h1>
 
 # Content  
 - [Overview](#overview)
-- [Repository Structure](#repository-structure)
-- [Data Science and Machine Learning](#data-science-and-machine-learning)
-- [Deep Learning](#deep-learning)
-- [Generative AI](#generative-ai)
-- [NVIDIA GPU Cloud](#nvidia-gpu-cloud)
+- [Repository structure](#repository-structure)
+- [Data Science and machine learning](#data-science-and-machine-learning)
+- [deep Learning](#deep-learning)
+- [Generative ai](#generative-ai)
+- [Nvidia gpu cloud](#nvidia-gpu-cloud)
 - [Contact and Support](#contact-and-support)
 
 ---
 
 # Overview 
 
-This repository contains a collection of sample projects that you can run quickly and effortlessly, designed to integrate seamlessly with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview). Each project runs end-to-end, offering out-of-the-box, ready-to-use solutions across various domains, including data science, machine learning, deep learning, and generative AI.  
+This repo contain a collections of sample project you can run quick and effortless, made to works good with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview). Each projects runs from end-to-end, and offers out-of-box usable solution across many domain like data science, ML, DL and generative ai.  
 
-The projects leverage local open-source models such as **LLaMA** (Meta), **BERT** (Google), and **CitriNet** (NVIDIA), alongside selected online models accessible via **Hugging Face**. These examples cover a wide range of use cases, including **data visualization**, **stock analysis**, **audio translation**, **agentic RAG applications**, and much more.  
+Projects uses local open source models like **LLaMA** (meta), **BERT** (google) and **CitriNet** (nvidia), plus some online models via **Hugging Face**. You can try different usecases like **data visual**, **stocks analyse**, **audio translate**, **agent RAG** and more.  
 
-We are continuously expanding this collection with new projects. If you have suggestions or would like to see a specific sample project integrated with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview), please feel free to open a new issue in this repository — we welcome your feedback!
+We is adding more examples regularly. If you got suggestion or want to see something specific with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview), just open an issue in the repo — feedback are welcome!
 
 ---
 
-# Repository Structure 
+# Repository structure 
 
 - data-science-and-machine-learning
   - covid_movement_patterns_with_var
@@ -44,137 +44,136 @@ We are continuously expanding this collection with new projects. If you have sug
 
 ---
 
-# Data Science and Machine Learning
+# Data Science and machine learning
 
-The sample projects in this folder demonstrate how to build data science and machine learning applications with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview).
+This samples show how to build data science and ML projects with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview).
 
-We provide **5 sample projects**, each designed for quick and easy use to help you get started efficiently.
+There is **5 sample project** that is ready to use and help you get start fastly.
 
-### 🌸 Iris Flowers Classification with SVM
+### 🌸 Iris Flower Classify with SVM
 
-This project is a simple **classification** experiment focused on predicting species of **Iris flowers**.  
+This project is basic **classify** experiment to predicts type of **Iris flower**.  
 
-It runs on the **Data Science Workspace**, demonstrating basic supervised learning techniques for multi-class classification tasks.
+It work on **Data Science Workspace**, and show how supervised learning works for many-class problem.
 
-### 🖌️ Handwritten Digit Classification with Keras
+### 🖌️ Handwriting Digit Classify with Keras
 
-This project performs basic **image classification** using the **TensorFlow** framework.  
+This model make simple **image classify** using **TensorFlow**.  
 
-It trains a model to classify handwritten digits from the **MNIST** dataset and runs on the **Deep Learning Workspace**.
+It training model for MNIST digit and needs **Deep Learning Workspace**.
 
-### 🏙️ COVID Movement Patterns with VAR
+### 🏙️ COVID Move Patterns with VAR
 
-This project explores a **regression** experiment using **mobility data** collected during the COVID-19 pandemic.  
+This project do **regression** using **COVID mobility dataset**.  
 
-It highlights how city-level movement patterns changed during the crisis. The experiment runs on the **Data Science Workspace**.
+It looking at how city move change during pandemics. Use **Data Science Workspace**.
 
-### 🎬 Movie Recommender System with TensorFlow
+### 🎬 Movie Recommend System with TensorFlow
 
-This project builds a simple **recommender system** for movies using **TensorFlow**.  
+This project makes a movie **recommender system** with TensorFlow.  
 
-It trains on user-item interaction data to predict movie preferences and runs on the **Deep Learning Workspace**.
+It learn on user interaction and predict what movie is good. Needs **Deep Learning Workspace** to run.
 
-### 🚫 Spam Detection with NLP
+### 🚫 Spam Detect using NLP
 
-This project implements a **text classification** system to detect **spam** messages.  
+This one make **text classify** model to spot **spam message**.  
 
-It uses deep learning techniques and requires the **Deep Learning Workspace** for training and inference.
-
----
-
-# Deep Learning
-
-The sample projects in this folder demonstrate how to build deep learning applications with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview).
-
-We provide **3 sample projects**, each designed for quick and easy use to help you get started efficiently.
-
-### 🧠 BERT Question Answering with MLflow
-
-This project demonstrates a simple **BERT Question Answering (QA)** experiment. It provides code to train a BERT-based model, as well as instructions to load a pretrained model from **Hugging Face**.  
-
-The model is deployed using **MLflow** to expose an inference service capable of answering questions based on input text.
-
-### 🖼️ Image Super Resolution with Convolutional Networks
-
-This project showcases a **Computer Vision** experiment that applies convolutional neural networks for **image super-resolution** — enhancing the quality and resolution of input images.  
-
-### ✍️ Character-Level Text Generation with Shakespeare Dataset
-
-This project illustrates how to build a simple **character-by-character text generation** model.  
-
-It trains on a dataset containing **Shakespeare's texts**, demonstrating the fundamentals of text generation by predicting one character at a time.
+It uses deep learn model and should be runned on **Deep Learning Workspace**.
 
 ---
 
-# Generative AI
+# deep Learning
 
-The sample projects in this folder demonstrate how to build generative AI applications with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview).
+Projects in this part shows how to build deep learning stuff using [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview).
 
-We provide **2 sample projects**, each designed for quick and easy use to help you get started efficiently.
+There are **3 project** in here to help you get begin quickly.
 
-### 🤖 Agentic RAG Notebook with Llama 2 and ChromaDB
+### 🧠 BERT QA with MLflow
 
-This project implements an **Agentic Retrieval-Augmented Generation (RAG)** pipeline combining **Llama 2** and **ChromaDB**.  
+This is a simple **question answering** model using BERT. You can train or use model from **HuggingFace**.  
 
-It features an intelligent question-answering system where the model dynamically decides whether external document context is needed before responding, ensuring highly accurate and contextually relevant answers through an agentic workflow.
+It use **MLflow** for inference server that answer the input text questions.
 
-### 📊 Automated Evaluation with Structured Outputs
+### 🖼️ Image Super Resolution with CNNs
 
-**Automated Evaluation with Structured Outputs** turns a local **Meta‑Llama‑2** model into an MLflow‑served scorer that rates any batch of texts (e.g., project abstracts) against arbitrary rubric criteria.
+This is **computer vision** task to enhance picture quality using CNN models.  
 
-* Generates scores locally via `llama.cpp` (no data leaves your machine)
-* Registers the evaluator as a **pyfunc** model in MLflow
-* Exposes a REST `/invocations` endpoint
-* Ships two front‑ends — a **Streamlit** dashboard and a pure **HTML/JS** UI — for instant human‑friendly interaction and CSV download.
+Train on low resolution image and produce high quality version.
+
+### ✍️ Text Generation with Shakespeare Dataset
+
+Make model that write like **Shakespeare** character by character.  
+
+It learn from Shakespeare text and do generation 1 char at one time.
 
 ---
 
-# NVIDIA GPU Cloud
+# Generative ai
 
-The sample projects in this folder demonstrate how to integrate **NVIDIA NGC (NVIDIA GPU Cloud)** resources with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview).
+This section have **2 projects** to help you with generative AI stuffs with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview).
 
-We provide **four distinct sample projects**, each designed for quick and easy use to help you get started efficiently.
+### 🤖 Agentic RAG Notebook using Llama2 and ChromaDB
 
-### 🎙️ Audio Translation with NeMo Models
+This sample make **agentic RAG pipeline** that uses **Llama2** + **ChromaDB**.  
 
-This project demonstrates an end-to-end **audio translation pipeline** using **NVIDIA NeMo models**. It takes an English audio sample and performs:
+It answer smart questions and check if documents are needed or not, before giving answers. Gives accurate result.
 
-1. **Speech-to-Text (STT)** conversion using Citrinet  
-2. **Text Translation (TT)** from English to Spanish using NMT  
-3. **Text-to-Speech (TTS)** synthesis in Spanish using FastPitch and HiFiGAN  
+### 📊 Auto Evaluation with Structure Outputs
 
-All steps are GPU-accelerated, and the full workflow is integrated with **MLflow** for experiment tracking and model registration.
+**Automated evaluation with Structured Output** use a **Meta Llama 2** model to make a MLflow API that score text batch using some rubric.
 
-### 📡 OpenCellID Exploratory Data Analysis with Panel and cuDF
+* Use `llama.cpp` local (no data go outside)
+* Add it to MLflow pyfunc
+* Has REST endpoint for calling
+* Includes two UIs — **Streamlit** and HTML/JS page with csv download.
 
-This project is a GPU-accelerated, interactive **exploratory data analysis (EDA)** dashboard for the [OpenCellID](https://www.opencellid.org/) dataset. It uses **Panel** and **cuDF** to deliver lightning-fast geospatial analysis and visualization.
+---
 
-You can explore cell tower distributions by radio type, operator, country, and time window — rendered live on an interactive map with full GPU acceleration.
+# Nvidia gpu cloud
+
+This parts show how to use **NVIDIA NGC** with [**Z by HP AI Studio**](https://zdocs.datascience.hp.com/docs/aistudio/overview).
+
+You get **4 projects**, fast and simple.
+
+### 🎙️ Audio Translation with NeMo
+
+Do complete **audio translate** using **NVIDIA NeMo** models. Steps:
+
+1. **STT** with Citrinet  
+2. **Translate** to Spanish  
+3. **TTS** using FastPitch and HiFiGAN  
+
+All runs on GPU. Integrated with **MLflow**.
+
+### 📡 OpenCellID EDA with Panel and cuDF
+
+GPU-powered **explore data dashboard** using [OpenCellID](https://www.opencellid.org/). Made with **Panel** + **cuDF**.
+
+Shows towers by country, operator, etc. on map. Render with GPU power.
 
 ### 📈 Stock Analysis with Pandas and cuDF  
 
-In this project, we provide notebooks to compare the execution time of dataset operations using traditional **Pandas** (CPU) versus **NVIDIA’s cuDF**, a GPU-accelerated drop-in replacement for Pandas. This example is presented in two different formats:
+This project test time diff between **pandas** (cpu) and **cuDF** (gpu). Two format:
 
-- **Original Example Notebook**: This version, created by NVIDIA, runs the entire evaluation within a single notebook. It includes downloading the data and restarting the kernel to activate the cuDF extension.
+- One notebook from **NVIDIA** that download and eval all-in-one  
+- Two notebook style: 1 with Pandas, 1 with cuDF. Metrics log to **MLflow**
 
-- **Data Analysis Notebooks**: These notebooks use preprocessed datasets of varying sizes from **datafabric** folder in AI Studio. The evaluation is split across two notebooks—one using Pandas (CPU) and the other using cuDF (GPU)—with performance metrics logged to **MLflow**.
+### 🌍 Travel Recommend Agent with NeMo and BERT
 
-### 🌍 Vacation Recommendation Agent with NeMo and BERT
+An AI agent that gives **travel recommends** based on your query.  
 
-This project implements an **AI-powered recommendation agent** that delivers personalized travel suggestions based on user queries. 
-
-It leverages the **NVIDIA NeMo Framework** and **BERT embeddings** to understand user intent and generate highly relevant, tailored vacation recommendations.
+It use **BERT** and **NeMo** to guess user intent and reply with smart ideas.
 
 ---
 
 # Contact and Support  
 
-- Issues: Open a new issue in our [**AI-Blueprints GitHub repo**](https://github.com/HPInc/AI-Blueprints).
+- Issue: Make an issue in [**AI-Blueprints GitHub repo**](https://github.com/HPInc/AI-Blueprints)
 
-- Docs: Refer to the **[AI Studio Documentation](https://zdocs.datascience.hp.com/docs/aistudio/overview)** for detailed guidance and troubleshooting. 
+- Docs: See [**AI Studio Documentation**](https://zdocs.datascience.hp.com/docs/aistudio/overview) to fix problem. 
 
-- Community: Join the [**HP AI Creator Community**](https://community.datascience.hp.com/) for questions and help.
+- Community: Come to [**HP AI Creator Community**](https://community.datascience.hp.com/) if you got question.
 
 ---
 
-> Built with ❤️ using [**HP AI Studio**](https://www.hp.com/us-en/workstations/ai-studio.html).
+> Build with ❤️ using [**HP AI Studio**](https://www.hp.com/us-en/workstations/ai-studio.html).
