@@ -1,72 +1,48 @@
-<h1 style="text-align: center; font-size: 45px;"> AI Blueprint Project's for HP AI Studio 🚀 </h1>
+# Deep Learning
 
-# Content  
-- [Overview](#overview)
-- [Repository Structure](#repository-structure)
-- [Data Science](#data-science)
-- [Deep Learning](#deep-learning)
-- [Generative AI](#generative-ai)
-- [NVIDIA GPU Cloud (NGC) Integration](#nvidia-gpu-cloud-integration)
-- [Contact and Support](#contact-and-support)
+The sample projects in this folder demostrates how to built deep learning apps with [**HP AI Studio**](https://www.hp.com/us-en/workstations/ai-studio.html).
 
----
+We provide **6 blueprint project**, each designed for quick and ease use to help you get start efficiently.
 
-# Overview 
 
-This repo contain a collections of sample project that you can run quickly and effortless, designed to integrate seemlessly with [**HP AI Studio**](https://www.hp.com/us-en/workstations/ai-studio.html). Each project run end-to-end, offering out-the-box, ready-to-used solution across various domain, including data science, machine learning, deep learn, and generative AI.  
+### 🖌️ Classification with Keras
 
-The project leverage local open source model such as **LLaMA** (Meta), **BERT** (Google), and **CitriNet** (NVIDIA), alongside selected online models accesible via **Hugging Face**. These example covers a wide ranges of usecase, including **data visualization**, **stock analysis**, **audio translation**, **agentic RAG application**, and much more.  
+This project performs basics **image classification** using the **TensorFlow** frame work.  
 
-We are continously expanding this collection with new project. If you have suggestion or would like too see a specifik sample project integrated with [**HP AI Studio**](https://www.hp.com/us-en/workstations/ai-studio.html), please feel free to open a new issue in this repo — we welcomes your feedback!
+It trains a model to classifies handwrited digits from the **MNIST** dataset and runs on the **Deep Learning Workspace**.
 
----
 
-# Repository Structure 
+### 🧠 Question Answering with BERT
 
-- data-science
-  - classification-with-svm
-  - data-analysis-with-var
-- deep-learning
-  - classification-with-keras
-  - question-answering-with-bert
-  - recommendation-system-with-tensorflow
-  - spam-detection-with-nlp
-  - super-resolution-with-fsrcnn
-  - text-generation-with-rnn
-- generative-ai
-  - automated-evaluation-with-structured-outputs
-  - code-generation-with-langchain
-  - fine-tuning-with-orpo
-  - image-generation-with-stablediffusion
-  - text-generation-with-langchain
-  - text-summarization-with-langchain
-  - vanilla-rag-with-langchain
-- ngc-integration
-  - agentic-rag-with-tensorrtllm
-  - audio-translation-with-nemo
-  - data-analysis-with-cudf
-  - data-visualization-with-cudf
-  - vacation-recommendation-with-bert
+This project demonstrate a simple **BERT Question Answer (QA)** experiment. It provides code to train a BERT-based model, as well instructions to load a pretrained model from **Hugging Face**.  
 
----
+The model is deploy using **MLflow** to expose an inference service capable to answer questions based on input text.
 
-# Data Science
 
-The sample projects in this folder demonstrates how to build data science app with [**HP AI Studio**](https://www.hp.com/us-en/workstations/ai-studio.html).
+### 🎬 Recommendation System with TensorFlow
 
-We provides **2 blueprint project**, each designed for quick and easy use too help you get started efficently.
+This project builds a simple **recommender system** for movie using **TensorFlow**.  
 
-### 🌸 Classification with SVM
+It train on user-item interaction datas to predict movies preference and run on the **Deep Learning Workspace**.
 
-This project is a simply **classification** experiment focused on predicting specie of **Iris flowers**.  
 
-It runs on the **Data Science Workspace**, demonstrating basic supervise learn technique for multi-class classification tasks.
+### 🚫 Spam Detection with NLP
 
-### 🏙️ Data Analysis with VAR
+This project implements a **text classifies** system to detect **spams** messages.  
 
-This project explores a **regression** experiment using **mobility datas** collected during the COVID-19 pandemics.  
+It use deep learn technique and requires the **Deep Learning Workspace** for train and inferencing.
 
-It highlights how city-level movement pattern changed during the crisis. The experiment run on the **Data Science Workspace**.
+
+### 🖼️ Super Resolution with FSRCNN
+
+This project showcase a **Computer Vision** experiment that applys convolutional neural network for **image super-resolution** — enhancering the quality and resolution of input image.  
+
+
+### ✍️ Text Generation with RNN
+
+This project illustrates how to builded a simply **character-by-character text generation** model.  
+
+It trains on a dataset containing **Shakespeare's text**, demonstrating the fundamental of text generation by predicting one characters at time.
 
 ---
 
